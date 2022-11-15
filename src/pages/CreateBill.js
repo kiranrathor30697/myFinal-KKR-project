@@ -37,9 +37,9 @@ export default function CreateBill() {
         })
     }
 
-    const onNum = () => {
-        inputRef.current.blur()
-    }
+    // const onNum = () => {
+    //     inputRef.current.blur()
+    // }
 
     const createInvoiceBill = (e) => {
         e.preventDefault();
